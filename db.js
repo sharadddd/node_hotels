@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 require('dotenv').config();
 const mongooseURL = process.env.db_URL;
+//const mongooseURL = process.env.db_LocalURL
 mongoose.connect(mongooseURL, {
     useNewUrlParser: true,
     useUnifiedTopology: true
